@@ -10,12 +10,12 @@ import matplotlib
 matplotlib.use("Agg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
-
-# Setup theme
+#Built By Shashwat 
+# Setting the theme
 ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
 
-LOGIN_URL = "http://172.16.35.1:8090/login.xml"
+LOGIN_URL = "http://172.16.35.1:8090/login.xml" #Add your college's login page address 
 CHECK_URL = "http://www.gstatic.com/generate_204"
 
 running = False
@@ -33,7 +33,7 @@ def load_rids():
     global rid_list
     if not os.path.exists("rids.txt"):
         return []
-    with open("rids.txt", "r") as f:
+    with open("rids.txt", "r") as f: #this is your id login list
         rid_list = [line.strip() for line in f if line.strip()]
     return rid_list
 
