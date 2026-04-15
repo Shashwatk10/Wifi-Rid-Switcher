@@ -47,14 +47,14 @@ ID2
 ID3
 ...
 ```
-⚠️ The current IDs are specific to my college and won’t work for you.
+- ⚠️ The current IDs are specific to my college and won’t work for you.
 4. File Placement (Important)
 - Keep main.py and rids.txt in the same folder
 OR
 - If you want them in different locations, update the file path in the code:
 file_path = "path/to/your/rids.txt"
 5. Run the Program
-python main.py
+- python main.py
 --- 
 ## ⚠️ Notes
 - This project is just an idea implementation
@@ -67,7 +67,7 @@ python main.py
 - Optimize switching algorithms
 - Integrate smarter network checks
 ## 🤝 Contributing
-Pull requests, ideas, and improvements are welcome!
+- Pull requests, ideas, and improvements are welcome!
 # ⭐ Final Note
 - This was built to solve a real everyday problem.
 - If it helps you — or inspires you to build something better — that’s a win.
